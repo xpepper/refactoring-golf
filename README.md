@@ -8,7 +8,7 @@ and see how far it can be pushed.
 
 This repository contains multiple versions of a simple class to calculate tax on a payslip.
 
-* The first 5,000 is tax free
+* The first 5,000 is tax-free
 * Up to 20,000 is taxed at 10%
 * Up to 40,000 is taxed at 20%
 * Above 40,000 is taxed at 40%
@@ -38,7 +38,7 @@ It's easy to get confused about which file is which.
 if you want to make another attempt or if you get confused.
 - Run the tests after each "stroke". You can do this by selecting the top-level *refactoring-golf* in 
 the project view and selecting `Run 'All Tests'` from the pop-up menu. 
-- Check your code in frequently so it's easier to try a refactoring more than once. Idea also has 
+- Check in your code frequently, so it's easier to try a refactoring more than once. Idea also has 
 an excellent _Local History_ option. 
 
 ## Practical
@@ -53,7 +53,7 @@ These are some example scores, achieved using IntelliJ.
 
 <table border="1">
 <tr><th>Hole</th><th>Best score</th><th>Notes</th></tr>
-<tr><td> 1    </td><td> 6          </td><td></td></tr>
+<tr><td> 1    </td><td> 5          </td><td></td></tr>
 <tr><td> 2    </td><td> 3          </td><td></td></tr>
 <tr><td> 3    </td><td> 9          </td><td></td></tr>
 <tr><td> 4    </td><td> 17         </td><td>lots of manual edits</td></tr> 
@@ -78,6 +78,6 @@ These instructions were mostly stolen from @jasongorman's
 
 ## Notes
 
-- we used `double` for the calculations. Using floating point types is usually a bad idea for money, 
+- we used `double` for the calculations. Using floating-point types is usually a bad idea for money, 
 but here it's to simplify the exercises. The alternative TDD version uses `long`. Both should probably 
 use a decimal format.
